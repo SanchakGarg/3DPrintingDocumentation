@@ -56,8 +56,9 @@ We will start by learning about softwares that are used for making gcode,We call
         1. After Installing the software when you first run it, You will get this kind of a pop up, Follow the steps in video: <br/>
         ![Orcaslicer Starting Page](./Images/OrcaslicerStartigPage.gif)
 
-        2. After That, You will see a list of available printers. Select **Ender-3 V2, 0.4 mm Nozzle** from the list and press confirm. It is the printer that we are using.<br/>
-        ![Orcaslicer Select Printer](./Images/OrcaPrinterSelect.gif)
+        2. After That, You will see a list of available printers. Select **Ender-3 V2, 0.4 mm Nozzle** from the list and press confirm. It is the printer that we are using.
+
+            ![Orcaslicer Select Printer](./Images/OrcaPrinterSelect.gif)
 
     - #### **Importing Configs**
         1. Go to this Github [Link](https://github.com/SanchakGarg/3DPrintingDocumentation/blob/main/Configs/Configs.zip)
