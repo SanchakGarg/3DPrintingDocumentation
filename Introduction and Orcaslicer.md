@@ -59,4 +59,20 @@ We will start by learning about softwares that are used for making gcode,We call
         ![Orcaslicer Select Printer](./Images/OrcaPrinterSelect.gif)
 
     - #### **Importing Configs**
-        1. Go to this drive link 
+        1. Go to this Github [Link](https://github.com/SanchakGarg/3DPrintingDocumentation/blob/main/Configs/Configs.zip)
+        And download the zip file
+        ![GitPage](./Images/Git%20config%20download%20Page.png)
+        2. Extract the zip file and copy all the folders inside it
+
+            | Windows | Mac |
+            | ------------- | -------------|
+            |Right click and press extract all and new folder will be created with all the contents of zip file inside it| Just double click and you will see all content inside the zip file|  
+        
+        3. **Paste the copied folder in the Orcaslicer default folder**
+
+            | Windows | Mac |
+            | ------------- | -------------| 
+            |1. Press win + R key. ||
+            |2. type **%appdata%** and press enter||
+            |3. then go to **OrcaSlicer ➡️ User ➡️ default** and paste all the folders. ||
+        4. Close all the orcaslicer instances and then open it again.
