@@ -16,6 +16,7 @@ Each type of 3D printer has its own strengths and weaknesses and is used based o
 3D CAD is a type of computer software that allows you to create and modify 3D models of objects. There are different types of software you can use for 3D modeling among which a few are [Autodesk Tinkecad(beginner)](https://www.tinkercad.com/), Autodesk Fusion 360(Advanced), SolidWorks(Advanced), [Onshape](https://www.onshape.com/en/), etc. We will be teaching you more about 3D modeling in a different module.
 
 Below You can see the interface of Autodesk interface.
+
 ![Tinkercad Interface](./Images/Tinkercad.gif)
 
 Below links to a  few videos about tinkercad are attached and can see them if you don’t know about 3d modeling but it’s only starting point and you can only work with basic shapes and onshape is the place to go to directly if you are looking to make more complicated things. 
