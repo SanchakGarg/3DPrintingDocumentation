@@ -1,0 +1,20 @@
+{
+    "from": "User",
+    "gcode_flavor": "klipper",
+    "inherits": "Creality Ender-3 V3 SE 0.4 nozzle",
+    "is_custom_defined": "0",
+    "machine_end_gcode": "PRINT_END",
+    "machine_pause_gcode": "PAUSE",
+    "machine_start_gcode": "M117\nM190 S0 ; set bed temperature and wait for it to be reached\nM104 S0 ; set nozzle temperature\nM109 S0 ; set nozzle temperature and wait for it to be reached\nSTART_PRINT        BED_TEMP=[bed_temperature_initial_layer_single]     EXTRUDER_TEMP=[nozzle_temperature_initial_layer]",
+    "name": "Kabootar",
+    "print_host": "kabootar.local:36473",
+    "printer_settings_id": "Kabootar",
+    "retraction_length": [
+        "1.5"
+    ],
+    "thumbnails": "300x300/PNG",
+    "version": "2.0.0.0",
+    "z_hop": [
+        "0"
+    ]
+}

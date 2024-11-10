@@ -1,0 +1,25 @@
+{
+    "default_filament_colour": [
+        "#000000"
+    ],
+    "filament_settings_id": [
+        "E6 - MK8DG eSun PLA+ - Black"
+    ],
+    "filament_vendor": [
+        "ESUN"
+    ],
+    "from": "User",
+    "full_fan_speed_layer": [
+        "3"
+    ],
+    "inherits": "Creality Generic PLA",
+    "is_custom_defined": "0",
+    "name": "E6 - MK8DG eSun PLA+ - Black",
+    "nozzle_temperature": [
+        "203"
+    ],
+    "nozzle_temperature_initial_layer": [
+        "203"
+    ],
+    "version": "2.1.0.0"
+}

@@ -1,0 +1,21 @@
+{
+    "from": "User",
+    "gcode_flavor": "klipper",
+    "inherits": "Creality Ender-3 S1 Pro 0.4 nozzle",
+    "is_custom_defined": "0",
+    "machine_end_gcode": "PRINT_END",
+    "machine_pause_gcode": "PAUSE",
+    "machine_start_gcode": "M117\nM190 S0 ; set bed temperature and wait for it to be reached\nM104 S0 ; set nozzle temperature\nM109 S0 ; set nozzle temperature and wait for it to be reached\nSTART_PRINT BED_TEMP=[bed_temperature_initial_layer_single]     EXTRUDER_TEMP=[nozzle_temperature_initial_layer]",
+    "name": "Augstine - Ender 3v2 0.4mm nozzle",
+    "print_host": "10.42.200.236",
+    "printable_height": "250",
+    "printer_settings_id": "Augstine - Ender 3v2 0.4mm nozzle",
+    "retraction_length": [
+        "4"
+    ],
+    "version": "2.0.2.0",
+    "z_hop": [
+        "0"
+    ],
+    "z_offset": "0.25"
+}

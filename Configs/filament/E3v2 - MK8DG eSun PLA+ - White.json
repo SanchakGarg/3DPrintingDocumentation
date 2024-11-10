@@ -1,0 +1,37 @@
+{
+    "default_filament_colour": [
+        "#FFFFFF"
+    ],
+    "enable_pressure_advance": [
+        "1"
+    ],
+    "filament_flow_ratio": [
+        "1.029"
+    ],
+    "filament_settings_id": [
+        "E3v2 - MK8DG eSun PLA+ - White"
+    ],
+    "filament_vendor": [
+        "ESUN"
+    ],
+    "from": "User",
+    "full_fan_speed_layer": [
+        "3"
+    ],
+    "hot_plate_temp_initial_layer": [
+        "65"
+    ],
+    "inherits": "Creality Generic PLA",
+    "is_custom_defined": "0",
+    "name": "E3v2 - MK8DG eSun PLA+ - White",
+    "nozzle_temperature": [
+        "203"
+    ],
+    "nozzle_temperature_initial_layer": [
+        "203"
+    ],
+    "pressure_advance": [
+        "0.8"
+    ],
+    "version": "2.1.0.0"
+}

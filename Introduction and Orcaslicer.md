@@ -57,3 +57,6 @@ We will start by learning about softwares that are used for making gcode,We call
 
         2. After That, You will see a list of available printers. Select **Ender-3 V2, 0.4 mm Nozzle** from the list and press confirm. It is the printer that we are using.<br/>
         ![Orcaslicer Select Printer](./Images/OrcaPrinterSelect.gif)
+
+    - #### **Importing Configs**
+        1. Go to this drive link 

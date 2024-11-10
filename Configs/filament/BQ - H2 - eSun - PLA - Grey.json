@@ -1,0 +1,34 @@
+{
+    "default_filament_colour": [
+        "#808080"
+    ],
+    "enable_pressure_advance": [
+        "1"
+    ],
+    "filament_flow_ratio": [
+        "0.91884"
+    ],
+    "filament_settings_id": [
+        "BQ - H2 - eSun - PLA - Grey"
+    ],
+    "filament_vendor": [
+        "eSUN"
+    ],
+    "from": "User",
+    "hot_plate_temp_initial_layer": [
+        "65"
+    ],
+    "inherits": "Creality Generic PLA",
+    "is_custom_defined": "0",
+    "name": "BQ - H2 - eSun - PLA - Grey",
+    "nozzle_temperature": [
+        "197"
+    ],
+    "nozzle_temperature_initial_layer": [
+        "197"
+    ],
+    "pressure_advance": [
+        "0.065"
+    ],
+    "version": "2.0.2.0"
+}

@@ -1,0 +1,19 @@
+{
+    "from": "User",
+    "gcode_flavor": "klipper",
+    "inherits": "Creality Ender-6 0.4 nozzle",
+    "is_custom_defined": "0",
+    "machine_end_gcode": "PRINT_END",
+    "machine_start_gcode": "M117\nM190 S0 ; set bed temperature and wait for it to be reached\nM104 S0 ; set nozzle temperature\nM109 S0 ; set nozzle temperature and wait for it to be reached\nPRINT_START     BED=[bed_temperature_initial_layer_single]     EXTRUDER=[nozzle_temperature_initial_layer]",
+    "name": "May - Ender 6 0.4 Nozzle",
+    "print_host": "192.168.30.5",
+    "printable_area": [
+        "0x0",
+        "247x0",
+        "247x220",
+        "0x220"
+    ],
+    "printable_height": "350",
+    "printer_settings_id": "May - Ender 6 0.4 Nozzle",
+    "version": "2.1.0.0"
+}
