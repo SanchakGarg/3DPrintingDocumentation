@@ -52,12 +52,12 @@ We will start by learning about softwares that are used for making gcode,We call
     -   #### **How to Install Orcaslicer**
         1. Go to github link of [Orcaslicer](https://github.com/SoftFever/OrcaSlicer/releases/tag/v2.2.0)
         2. Scroll down and you will see files for all operating systems. Download the Installer based on the OS and system you are using.
-            ![Orcaslicer Github](./Images/OrcaslicerGithub.png)
+            ![Orcaslicer Github](./Images/OrcaslicerDownload.png)
     - #### **Setting Up Orcaslicer**
         1. After Installing the software when you first run it, You will get this kind of a pop up, Follow the steps in video: <br/>
         ![Orcaslicer Starting Page](./Images/OrcaslicerStartigPage.gif)
 
-        2. After That, You will see a list of available printers. Select **Ender-3 V2, 0.4 mm Nozzle** from the list and press confirm. It is the printer that we are using.
+        2. After That, You will see a list of available printers. Select `Ender-3 V2, 0.4 mm Nozzle` from the list and press confirm. It is the printer that we are using.
 
             ![Orcaslicer Select Printer](./Images/OrcaPrinterSelect.gif)
 
@@ -66,18 +66,48 @@ We will start by learning about softwares that are used for making gcode,We call
         And download the zip file
         ![GitPage](./Images/Git%20config%20download%20Page.png)
         2. Extract the zip file and copy all the folders inside it
-
-            | Windows | Mac |
+            
+            | Operating System | Instructions |
             | ------------- | -------------|
-            |Right click and press extract all and new folder will be created with all the contents of zip file inside it| Just double click and you will see all content inside the zip file|  
-        
-        3. **Paste the copied folder in the Orcaslicer default folder**
+            |**Windows**|Right click and press extract all and new folder will be created with all the contents of zip file inside it
+            |**Mac**| Double click the zip file in and a new folder with the name configs will be created containing all the contents of zip file inside it|  
+        3. **There will be 3 folders inside the extracted folder, Copy all of them.**
+        4. **Paste the copied folder in the Orcaslicer default folder**
 
             | Windows | Mac |
             | ------------- | -------------| 
             |1. Press `win + R` key. |1. Press `shift + cmd + g`|
-            |2. type `%appdata%` and press enter|2. type `~/Library/Application Support/OrcaSlicer/user/default/` and press enter |
+            |2. type `%appdata%` and press enter|2. Copy and Paste `~/Library/Application Support/OrcaSlicer/user/default/` and press enter |
             |3. then go to `OrcaSlicer ➡️ User ➡️ default` and paste all the folders. |3. Paste all the folders that you copied earlier|
         4. Close all the orcaslicer instances and then open it again.
     - #### **Navigating Orcaslicer**
+        1. **Preparing the Model to slice**
+            ![Starting tools](./Images/OrcaslicerStartTools.png)    
+            - From the printer dropdown, you can select the 3D printer you are printing on. You can do the same on the Filament dropdown, where you can select available filaments based on the color and printer you are using.
+            - To add 3D models to the slicer, you can use the first option in the top bar in the middle. In Orcaslicer, you can add `STL`, `OBJ`, and `STEP` files.   
+            - **Parameters to set before slicing the model:**
+                For obtaining a 3D printed part, there are aspects about the print that need to be decided and informed to the machine before printing. In the event of Fused Deposition Modelling(FDM), there needs to be a few rules and instructions defined for the printer before we can send off our gcode to the machine for execution. These are called “Parameters” of the print. 
+
+                1. **Infill** - Since 3D prints are hollow, we also have to define how much of the space on the inside we wish to fill up with the material we are printing. This is normally expressed as a percentage of the space available inside the innermost perimeter of the print. The main factors it affects is the weight and strength of the print. 
+                2. **Supports** -  Supports are temporary structures that hold up overhanging features of a 3D     print. They are needed to prevent overhangs from collapsing, improve surface quality, reduce warping, and increase strength.<br>
+                Supports are typically generated automatically by slicing software, but you can adjust the settings to ensure they are placed and sized correctly.
+                3. **Layer Height** -  Layer height in 3D printing refers to the thickness of each layer of plastic laid down by the printer. It directly affects the print quality and print time. Thinner layers (smaller layer height) result in smoother surfaces and finer details but increase the print time. Thicker layers (larger layer height) print faster but may result in a more "stair-stepped" appearance on curved surfaces.
+
+                In the Process section, you can search for infill supports and layer height options, and select configurations for different layer heights based on the printer from the Process dropdown.
+
+                ![ProcessDropdown](./Images/ProcessSection.png)
+            
+        2. **Slicing the 3D model**
+
+            Once your parameters are set, click "Slice" in the top right corner to process your model. You'll then be taken to the preview section.
+
+            ![Orcaslicer Slice Option](./Images/OrcaSliceOption.png)
+
+            Below is the preview of sliced model
+
+            ![Sliced Model](./Images/SlicedModelPreview.gif)
+
+            In the top right corner, you can visualize the various layers of your model, with different colors representing distinct layer types.  Green highlights in the sliced model indicate the support structures automatically generated by the slicer.  Meanwhile, the bottom right corner provides a live view of the G-code commands that are being sent to the 3D printer during the printing that part of the model.
+        3. **Sending gcode to printer to print**
+
 
