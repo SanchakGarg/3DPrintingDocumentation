@@ -129,7 +129,7 @@ We will start by learning about softwares that are used for making gcode,We call
 
             Printer Dashboard we use is called `fluidd`. It provides a user-friendly interface for managing your 3D printer.  It offers real-time monitoring of printing progress, temperatures, and control over various settings.
 
-            Below is an image of the printer
+            Below is an image of the printer dashboard or `fluidd`.
 
             ![Fluidd](./Images/Fluidd-1.png)
             ![Fluidd](./Images/Fluidd-2.png)
