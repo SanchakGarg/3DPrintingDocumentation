@@ -50,8 +50,9 @@ We will start by learning about softwares that are used for making gcode,We call
     There are many slicing programs available, but we will be using Orcaslicer. Orcaslicer is a popular choice because it is open-source and customizable.
 
     -   #### **How to Install Orcaslicer**
-        1. Go to website of [Orcaslicer](https://orcaslicer.net/#download-orca-slicer)
-        2. Scroll down and download the software beased on the Operating system you are using.
+        1. Go to github link of [Orcaslicer](https://github.com/SoftFever/OrcaSlicer/releases/tag/v2.2.0)
+        2. Scroll down and you will see files for all operating systems. Download the Installer based on the OS and system you are using.
+            ![Orcaslicer Github](./Images/OrcaslicerGithub.png)
     - #### **Setting Up Orcaslicer**
         1. After Installing the software when you first run it, You will get this kind of a pop up, Follow the steps in video: <br/>
         ![Orcaslicer Starting Page](./Images/OrcaslicerStartigPage.gif)
