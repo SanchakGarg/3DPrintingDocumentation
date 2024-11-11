@@ -74,7 +74,9 @@ We will start by learning about softwares that are used for making gcode,We call
 
             | Windows | Mac |
             | ------------- | -------------| 
-            |1. Press win + R key. ||
-            |2. type **%appdata%** and press enter||
-            |3. then go to **OrcaSlicer ➡️ User ➡️ default** and paste all the folders. ||
+            |1. Press `win + R` key. |1. Press `shift + cmd + g`|
+            |2. type `%appdata%` and press enter|2. type `~/Library/Application Support/OrcaSlicer/user/default/` and press enter |
+            |3. then go to `OrcaSlicer ➡️ User ➡️ default` and paste all the folders. |3. Paste all the folders that you copied earlier|
         4. Close all the orcaslicer instances and then open it again.
+    - #### **Navigating Orcaslicer**
+
