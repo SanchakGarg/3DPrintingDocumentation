@@ -78,7 +78,7 @@ We will start by learning about softwares that are used for making gcode,We call
             | ------------- | -------------| 
             |1. Press `win + R` key. |1. Press `shift + cmd + g`|
             |2. type `%appdata%` and press enter|2. Copy and Paste `~/Library/Application Support/OrcaSlicer/user/default/` and press enter |
-            |3. then go to `OrcaSlicer ➡️ User ➡️ default` and paste all the folders. |3. Paste all the folders that you copied earlier|
+            |3. then go to `OrcaSlicer ➡️ User ➡️ default` and replace all the folders. |3. Replace all the folders that you copied earlier ![Mac Replace](./Images/drive-download-20241111T073507Z-001/SCR-20241111-lrbe.png)|
         4. Close all the orcaslicer instances and then open it again.
     - #### **Navigating Orcaslicer**
         1. **Preparing the Model to slice**
