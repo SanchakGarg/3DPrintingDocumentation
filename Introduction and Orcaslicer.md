@@ -42,7 +42,7 @@ This **file(G-code)** contains various properties/parameters for the 3d printer 
 
 We will start by learning about softwares that are used for making gcode,We call these softwares slicing software.
 
-- ### Slicing
+1. ### Slicing
     Slicing is the process of cutting a 3D model into thin layers so that a 3D printer can print it. The slicer software does this by dividing the model into horizontal slices, like a loaf of bread. It then creates a path for the printer nozzle to follow to print each layer.
 
     The slicer also determines the printing settings, such as the layer height, print speed, and infill density. You will learn about these setting later in the documentation.
