@@ -10,6 +10,7 @@ This process is similar to standard 3D printing with a few key differences.  We'
 2. **Add a pause:** Right-click on the third layer and select "Add Pause". This will pause the print at the beginning of the third layer.
 
 **After print is paaused**
+>⚠️**Caution** - Nozzle temperate is at `205 °C`♨️ and print bed is at `60 °C` ♨️. Be carefull while putting the fabric on the bed.
 
 1. **Raise the Z-axis:**  Use the "Move Z" control(`In tool section`) in 3D printer's interface or fluidd dashboard to raise the print head approximately 100mm. This provides ample space to position your fabric.
 2. **Position the fabric:** Place your chosen fabric onto the print bed. Make sure the fabric extends about 1 inch beyond the edges of the print bed on all sides. This extra material allows for easy stretching and securing.
